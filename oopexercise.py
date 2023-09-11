@@ -22,7 +22,7 @@ class Attack:
     def eat(self):
         print('mimi zombie bites')
 
-# create the objects of the dinosaur class 
+# create a dinosaur object and pass to it one of the methods in the attack class (eat,bite,smack or smash)
 attacks = Attack()
 dinosaur = Dinosaur(roar_power_func= attacks.smack)
 dinosaur.roar_power_func()
